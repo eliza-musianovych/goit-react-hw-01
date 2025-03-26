@@ -1,0 +1,79 @@
+.profile {
+    border: 3px solid #111;
+    border-radius: 4px;
+    background-color: rgb(237, 236, 236);
+    padding: 0;
+}
+
+.profileName {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    border-radius: 50%;
+    background-color: rgb(54, 53, 53);
+    width: 150px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    color: rgb(123, 122, 122);
+    position: relative;
+    top: 5px;
+}
+
+.tag {
+    color: rgb(123, 122, 122);
+    margin-bottom: 2px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.location {
+    color: rgb(123, 122, 122);
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.statusList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid #7a7979;
+}
+
+.statusItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    background-color: #b1afaf;
+    border: 1px solid #7a7979;
+}
+
+.status {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.statusValue {
+   font-weight: 700; 
+   font-size: 25px;
+}
