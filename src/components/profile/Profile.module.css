@@ -1,11 +1,11 @@
 .profile {
-    border: 3px solid #111;
+    border: 3px solid #000000;
     border-radius: 4px;
     background-color: rgb(237, 236, 236);
     padding: 0;
 }
 
-.profileName {
+.profile-name {
     padding-top: 25px;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@
     font-weight: 400;
 }
 
-.statusList {
+.status-list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -57,7 +57,7 @@
     border-top: 1px solid #7a7979;
 }
 
-.statusItem {
+.status-item {
     padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
@@ -71,9 +71,11 @@
 .status {
     font-size: 25px;
     font-weight: 400;
+    color: #000000;
 }
 
-.statusValue {
+.status-value {
    font-weight: 700; 
    font-size: 25px;
+   color: #000000;
 }

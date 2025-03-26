@@ -5,7 +5,7 @@ const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 export default function Profile ({name, tag, location, image, stats}) {
         return (
 <div className={css.profile}>
-  <div className={css.profileName}>
+  <div className={css[`profile-name`]}>
     <img className={css.img}
       src={image}
       alt="User avatar"
@@ -15,11 +15,11 @@ export default function Profile ({name, tag, location, image, stats}) {
     <p className={css.location}>{location}</p>
   </div>
 
-  <ul className={css.statusList}>
+  <ul className={css[`status-list`]}>
     {Object.keys(stats).map(key => {
-        return <li key={key} className={css.statusItem}>
+        return <li key={key} className={css[`status-item`]}>
       <span className={css.status}>{capitalize(key)}</span>
-      <span className={css.statusValue}>{stats[key]}</span>
+      <span className={css[`status-value`]}>{stats[key]}</span>
    </li>
 })}
   </ul>
